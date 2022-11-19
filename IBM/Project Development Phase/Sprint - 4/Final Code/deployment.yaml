@@ -1,0 +1,20 @@
+ apiVersion: apps/v1
+ kind: Deployment
+ metadata:
+   name: flask-node-deployment
+ spec:
+   replicas: 1
+   selector:
+     matchLabels:
+       app: inventory
+   template:
+     metadata:
+       labels:
+         app: inventory
+     spec:
+       containers:
+       - name: inventory
+         image: icr.io/new_space/inventory
+         imagePullPolicy: Always
+         ports:
+         - containerPort: 5000
