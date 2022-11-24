@@ -1,5 +1,4 @@
-🏮Check Out our Deployed Application🏮 : http://169.51.207.105:30958/
-
+🏮Check Out our Deployed Application🏮 : http://169.51.204.164:30636/
 🙌The Code is Fully Functional🙌
 
 ↘️**Steps to execute the code:**↙️
@@ -23,4 +22,4 @@ Hurrah🎉!! You are good to go! Launch the Application! And You will see the ap
 **Step 3:** Create docker image for your application and deploy it using IBM Container and Kubernetes Service.
 
 
-Our Application's Public URL : http://169.51.207.105:30958/
+Our Application's Public URL : http://169.51.204.164:30636/
